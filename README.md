@@ -68,5 +68,3 @@ basic_one/
 ## 📄 라이선스
 
 MIT License
-
-
