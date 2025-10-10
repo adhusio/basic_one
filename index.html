@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메모앱</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="window">
+        <!-- 제목 표시줄 -->
+        <div class="title-bar">
+            <div class="title-bar-left">
+                <div class="logo">💬</div>
+                <span class="title-text">메모앱 (memo-app) 님과의 대화</span>
+            </div>
+            <div class="title-bar-right">
+                <button class="window-btn minimize">_</button>
+                <button class="window-btn maximize">□</button>
+                <button class="window-btn close">×</button>
+            </div>
+        </div>
+        
+        <!-- 메뉴 표시줄 -->
+        <div class="menu-bar">
+            <div class="menu-item">파일</div>
+            <div class="menu-item">편집</div>
+            <div class="menu-item">메모</div>
+            <div class="menu-item">도우미</div>
+        </div>
+        
+        <!-- 프로필 섹션 -->
+        <div class="profile-section">
+            <div class="profile-left">
+                <div class="avatar">👤</div>
+                <span class="profile-text">메모앱 (memo-app) 님과의 대화</span>
+            </div>
+            <div class="profile-right">
+                <div class="profile-menu">
+                    <div class="menu-icon">👥</div>
+                    <div class="dropdown-arrow">▼</div>
+                </div>
+                <div class="profile-menu">
+                    <div class="menu-icon">📄</div>
+                    <div class="dropdown-arrow">▼</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 구분선 -->
+        <div class="divider"></div>
+        
+        <!-- 메모 목록 영역 -->
+        <div class="content-area" id="memoList">
+            <!-- 메모들이 여기에 표시됩니다 -->
+        </div>
+        
+        <!-- 하단 기능 버튼 -->
+        <div class="toolbar">
+            <div class="tool-btn">
+                <div class="tool-icon">A</div>
+                <span>글꼴</span>
+            </div>
+            <div class="tool-btn">
+                <div class="tool-icon">🖼️</div>
+                <span>이미지</span>
+            </div>
+            <div class="tool-btn">
+                <div class="tool-icon">⭐</div>
+                <span>즐겨찾기</span>
+            </div>
+            <div class="tool-btn">
+                <div class="tool-icon">🔔</div>
+                <span>알림</span>
+            </div>
+            <div class="tool-btn">
+                <div class="tool-icon">🏷️</div>
+                <span>태그</span>
+            </div>
+        </div>
+        
+        <!-- 입력 영역 -->
+        <div class="input-area">
+            <div class="input-left">
+                <div class="avatar">👤</div>
+                <input type="text" id="memoInput" placeholder="메모를 입력하세요..." maxlength="200">
+                <div class="resize-handle">↗</div>
+            </div>
+            <div class="input-right">
+                <button class="search-btn">🔍</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

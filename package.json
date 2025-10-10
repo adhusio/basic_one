@@ -1,0 +1,30 @@
+{
+  "name": "memo-app",
+  "version": "1.0.0",
+  "description": "Windows 스타일 메모앱",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/index.html",
+    "dev": "live-server --port=3000 --open=/index.html --watch=.",
+    "build": "echo '빌드 완료 - 정적 파일입니다'",
+    "serve": "live-server --port=8080 --open=/index.html"
+  },
+  "keywords": [
+    "memo",
+    "notes",
+    "windows",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "jiyoon",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
